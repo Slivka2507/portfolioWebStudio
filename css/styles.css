@@ -1,25 +1,28 @@
 
-.main-page {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 1600px;
-}
-header {
+.page-top {
+    max-width: 1170px;
     height: 80px;
     display: flex;
+    align-self: center;
 }
 
 ul {
     list-style: none;
     display: flex;
 }
+
+.links {
+    display: flex;
+    margin-right: 331px;
+}
+
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     color: black;
+    margin: 24px 93px 24px 215px;
 }
 .logo-web {
     color: #2196F3;
@@ -28,16 +31,36 @@ ul {
     font-family: 'Roboto';
     font-weight: 500;
     width: 294px;
-    color: black;
+    color: #212121;
+    margin-top: 32px;
+}
+.site-nav :hover,
+.site-nav :focus {
+    color: #2196F3;
 }
 
-.mail-tel {
-    
+.studio{
+    margin-right: 50px;
+}
+.portfolio {
+    margin-right: 50px;
 }
 
 
-footer {
+.mail-tel :link {
+    color: #757575;
+    width: 135px;
+    padding-right: 50px;
+}
+.mail-tel :hover,
+.mail-tel :focus {
+    color: #2196F3;
+}
+
+
+.footer {
     background: #2F303A;
+    max-width: 1170px;
 }
 .logo-studio {
     color: white;
