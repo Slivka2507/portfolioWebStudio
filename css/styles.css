@@ -1,0 +1,44 @@
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1600px;
+}
+header {
+    height: 80px;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: black;
+}
+.logo-web {
+    color: #2196F3;
+}
+.site-nav {
+    font-family: 'Roboto';
+    font-weight: 500;
+    width: 294px;
+    color: black;
+}
+
+.mail-tel {
+    
+}
+
+
+footer {
+    background: #2F303A;
+}
+.logo-studio {
+    color: white;
+}
