@@ -1,0 +1,108 @@
+:root {
+    --main-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: "Raleway", sans-serif;
+    --bg-color: #FFFFFF;
+    --section-color: #2F303A;
+    --add-color: #2196F3;
+    --text-color: #212121;
+    --add-text-color: #757575;
+    --letter-spacing: 0.03em;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    
+}
+body {
+    color: var(--text-color);
+    font: var(--main-font-family);
+    background-color: var(--bg-color);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.page-top {
+    max-width: 1170px;
+    height: 80px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: black;
+    padding-right: 93px;
+  }
+
+  .logo-web {
+    color: var(--add-color);
+  }
+
+  .site-nav {
+    display: flex;
+    font-family: var(--main-font-family);
+    color: var(--text-color);
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+    font-weight: 500;
+  }
+  .site-nav-item {
+    margin-right: 50px;
+  }
+  .site-item-link {
+    color: var(--text-color);}
+  .site-item-link:hover,
+  .site-item-link:focus {
+    color: var(--add-color);
+  }
+
+  .mail-tel {
+    display: flex;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .mail-tel-item {
+    margin-right: 50px;
+  }
+  .mail-tel-link {
+    color: var(--add-text-color);
+  }
+  .mail-tel-link:hover,
+  .mail-tel-link:focus {
+    color: var(--add-color);
+  }
+
+  .main-title {
+    padding: 200px 452px 280px 452px;
+    background-color: var(--section-color);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .title {
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    color: var(--bg-color);
+    letter-spacing: 0.06em;
+  }
+  
+  .services {
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: var(--add-color);
+    color: var(--bg-color);
+  }
