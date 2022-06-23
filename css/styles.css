@@ -15,7 +15,6 @@ ul {
 }
 a {
   text-decoration: none;
-    
 }
 body {
   color: var(--text-color);
@@ -23,6 +22,19 @@ body {
   background-color: var(--bg-color);
   font-weight: 400;
   font-size: 14px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /* header */
@@ -47,7 +59,6 @@ body {
   font-size: 26px;
   line-height: 1.2;
   color: black;
-  padding-right: 93px;
   }
 
 .logo-web {
@@ -199,4 +210,32 @@ margin-right: 30px;
   font-family: var(--main-font-family);
   font-weight: 500;
   color: var(--text-color);
+}
+
+/* footer */
+
+.page-down {
+  background-color: var(--section-color);
+  height: 252px;
+}
+.logo-studio{
+  color: white;
+}
+.map {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  
+}
+.item-down{
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
 }
