@@ -87,16 +87,23 @@ body {
   }
 
   .main-title {
-    padding: 200px 452px 280px 452px;
+    height: 600px;
     background-color: var(--section-color);
-    text-transform: uppercase;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .title {
+    width: 696px;
     font-family: var(--main-font-family);
-    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
     color: var(--bg-color);
     letter-spacing: 0.06em;
+    text-align: center;
   }
   
   .services {
@@ -105,4 +112,7 @@ body {
     border: none;
     background-color: var(--add-color);
     color: var(--bg-color);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
   }
