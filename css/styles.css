@@ -73,6 +73,7 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.1;
   font-weight: 500;
+  margin-left: 93px;
 }
 .site-nav-item {
   margin-right: 50px;
@@ -145,6 +146,7 @@ body {
   color: var(--text-color);
   font-family: var(--main-font-family);
   letter-spacing: 0.03em;
+  margin: 94px;
 }
 
 .facts {
@@ -197,11 +199,10 @@ margin-right: 30px;
   letter-spacing: 0.03em;
   color: var(--text-color);
   margin-top: 94px;
+  padding: 94px;
 }
-
 .our-team {
   display: flex;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--add-text-color);
   font-weight: 400;
@@ -301,4 +302,20 @@ margin-right: 30px;
   background-color: var(--add-color);
   color: var(--bg-color);
   cursor: pointer;
+}
+
+.portfolio-page{
+  margin: 94px;
+}
+.portfolio-img {
+  
+  width: 100%;
+  display: flex;
+}
+.img-tile {
+  max-width: 370px;
+  margin: 30px;
+}
+.img-tile:nth-child(3n+3) {
+margin-right: 0;
 }
