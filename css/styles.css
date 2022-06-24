@@ -279,6 +279,7 @@ margin-right: 30px;
 .button-box {
   display: flex;
   justify-content: center;
+  margin-bottom: 34px;
 }
 .top-box {
   margin-right: 8px;
@@ -302,20 +303,33 @@ margin-right: 30px;
   background-color: var(--add-color);
   color: var(--bg-color);
   cursor: pointer;
-}
+} 
+
+
+/* section img */
 
 .portfolio-page{
   margin: 94px;
 }
 .portfolio-img {
-  
-  width: 100%;
+  width: 1170px;
   display: flex;
+  flex-wrap: wrap;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--add-text-color);
+  letter-spacing: 0.03em;
+}
+
+.img-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
 }
 .img-tile {
   max-width: 370px;
-  margin: 30px;
-}
-.img-tile:nth-child(3n+3) {
-margin-right: 0;
 }
