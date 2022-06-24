@@ -217,10 +217,26 @@ margin-right: 30px;
 .page-down {
   background-color: var(--section-color);
   height: 252px;
+  display: flex;
+  align-items: center;
 }
+
+.page-down-items{
+  width: 231px;
+  height: 132px;
+  margin: 60px 215px;
+
+}
+
 .logo-studio{
   color: white;
 }
+
+.text-down {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
 .map {
   font-family: var(--main-font-family);
   font-style: normal;
@@ -230,7 +246,7 @@ margin-right: 30px;
   line-height: 1.7;
   
 }
-.item-down{
+.mail-tel-down {
   font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 14px;
