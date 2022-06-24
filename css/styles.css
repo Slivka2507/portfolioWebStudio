@@ -37,6 +37,7 @@ body {
   margin: -1px;
 }
 
+
 /* header */
 
 .page-top {
@@ -101,6 +102,7 @@ body {
   color: var(--add-color);
 }
 
+
 /* section-1 */
 
 .main-title {
@@ -134,6 +136,7 @@ body {
   height: 50px;
 }
 
+
 /* section-2 */
 
 .text-page {
@@ -160,6 +163,7 @@ margin-right: 30px;
   color: var(--add-text-color);
 }
 
+
 /* section-3 */
 
 .our-tasks {
@@ -179,6 +183,7 @@ margin-right: 30px;
 .task-item {
   margin-right: 30px;
 }
+
 
 /* section-4 */
 .our-team-bg {
@@ -211,6 +216,7 @@ margin-right: 30px;
   font-weight: 500;
   color: var(--text-color);
 }
+
 
 /* footer */
 
@@ -246,6 +252,11 @@ margin-right: 30px;
   line-height: 1.7;
   
 }
+.map:hover,
+.map:focus {
+  color: var(--add-color);
+}
+
 .mail-tel-down {
   font-family: var(--main-font-family);
   font-weight: 400;
@@ -254,4 +265,40 @@ margin-right: 30px;
   letter-spacing: 0.03em;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.mail-tel-down:hover,
+.mail-tel-down:focus {
+  color: var(--add-color);
+}
+
+
+       /* Portfolio */
+
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+.top-box {
+  margin-right: 8px;
+  
+}
+
+.top_button {
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  background: #F5F4FA;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 22px;
+}
+.top_button:hover,
+.top_button:focus {
+  background-color: var(--add-color);
+  color: var(--bg-color);
+  cursor: pointer;
 }
