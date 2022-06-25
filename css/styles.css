@@ -47,6 +47,7 @@ body {
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
+  margin-left: 215px;
 }
 
 .top-nav {
@@ -332,4 +333,12 @@ margin-right: 30px;
 }
 .img-tile {
   max-width: 370px;
+}
+.img-tile:hover {
+  transform: scale(1.5);
+  transition:transform 0.5s;
+}
+
+.portfolio-link {
+  color: var(--add-text-color);
 }
