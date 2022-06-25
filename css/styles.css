@@ -7,7 +7,6 @@
   --add-color: #2196F3;
   --text-color: #212121;
   --add-text-color: #757575;
-  --letter-spacing: 0.03em;
 }
 
 ul {
@@ -20,7 +19,7 @@ body {
   color: var(--text-color);
   font: var(--main-font-family);
   background-color: var(--bg-color);
-  font-weight: 400;
+  letter-spacing: 0.03em;
   font-size: 14px;
 }
 
@@ -36,6 +35,8 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+
+
 
 
 /* header */
@@ -82,6 +83,7 @@ body {
 .site-item-link {
   color: var(--text-color);
 }
+.active,
 .site-item-link:hover,
 .site-item-link:focus {
   color: var(--add-color);
@@ -146,7 +148,7 @@ body {
   width: 1170px;
   color: var(--text-color);
   font-family: var(--main-font-family);
-  letter-spacing: 0.03em;
+  
   margin: 94px;
 }
 
@@ -175,13 +177,15 @@ margin-right: 30px;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--text-color);
   margin-top: 94px;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 .task {
   display: flex;
+  justify-content: space-between;
 }
 .task-item {
   margin-right: 30px;
@@ -197,14 +201,12 @@ margin-right: 30px;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--text-color);
   margin-top: 94px;
   padding: 94px;
 }
 .our-team {
   display: flex;
-  letter-spacing: 0.03em;
   color: var(--add-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -264,7 +266,6 @@ margin-right: 30px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -292,7 +293,6 @@ margin-right: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
   color: var(--text-color);
   background: #F5F4FA;
   border-radius: 4px;
@@ -321,7 +321,6 @@ margin-right: 30px;
   font-size: 16px;
   line-height: 1.9;
   color: var(--add-text-color);
-  letter-spacing: 0.03em;
 }
 
 .img-name {
