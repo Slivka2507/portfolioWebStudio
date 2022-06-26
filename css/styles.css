@@ -41,7 +41,7 @@ body {
 
 /* header */
 
-.page-top {
+/* .page-top {
   max-width: 1170px;
   height: 80px;
   display: flex;
@@ -49,13 +49,13 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-left: 215px;
-}
+} */
 
-.top-nav {
+/* .top-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 .main-logo {
   font-family: var(--secondary-font-family);
   font-weight: 700;
@@ -69,17 +69,18 @@ body {
   }
 
 .site-nav {
-  display: flex;
+  
   font-family: var(--main-font-family);
   color: var(--text-color);
   letter-spacing: 0.02em;
   line-height: 1.1;
   font-weight: 500;
-  margin-left: 93px;
+  /* display: flex;
+  margin-left: 93px; */
 }
-.site-nav-item {
+/* .site-nav-item {
   margin-right: 50px;
-}
+} */
 .site-item-link {
   color: var(--text-color);
 }
@@ -90,14 +91,14 @@ body {
 }
 
 .mail-tel {
-  display: flex;
+  /* display: flex; */
   font-family: var(--main-font-family);
   font-weight: 500;
   letter-spacing: 0.02em;
 }
-.mail-tel-item {
+/* .mail-tel-item {
   margin-right: 50px;
-}
+} */
 .mail-tel-link {
   color: var(--add-text-color);
 }
@@ -112,13 +113,13 @@ body {
 .main-title {
   height: 600px;
   background-color: var(--section-color);
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .title {
-  width: 696px;
+  
   font-family: var(--main-font-family);
   text-transform: uppercase;
   font-weight: 900;
@@ -126,7 +127,8 @@ body {
   line-height: 1.4;
   color: var(--bg-color);
   letter-spacing: 0.06em;
-  text-align: center;
+  /* width: 696px;
+  text-align: center; */
 }
 
 .services {
@@ -144,17 +146,16 @@ body {
 /* section-2 */
 
 .text-page {
-  display: flex;
   width: 1170px;
   color: var(--text-color);
   font-family: var(--main-font-family);
-  
-  margin: 94px;
+  /* display: flex;
+  margin: 94px; */
 }
 
-.facts {
+/* .facts {
 margin-right: 30px;
-}
+} */
 .characteristics {
   text-transform: uppercase;
   font-weight: 700;
@@ -176,18 +177,18 @@ margin-right: 30px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
   color: var(--text-color);
-  margin-top: 94px;
+  /* margin-top: 94px;
   width: 1170px;
   margin: 0 auto;
+  text-align: center; */
 }
 
-.task {
+/* .task {
   display: flex;
   justify-content: space-between;
-}
-.task-item {
+} */
+/* .task-item {
   margin-right: 30px;
 }
 
@@ -195,26 +196,26 @@ margin-right: 30px;
 /* section-4 */
 .our-team-bg {
   background-color: var(--add-bg-color);
-  height: 648px;
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
   color: var(--text-color);
+  /* text-align: center;
   margin-top: 94px;
-  padding: 94px;
+  height: 648px;
+  padding: 94px; */
 }
 .our-team {
-  display: flex;
+  /* display: flex; */
   color: var(--add-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
 }
-.photo {
+/* .photo {
   margin-right: 30px;
-}
+} */
 .person {
   font-family: var(--main-font-family);
   font-weight: 500;
@@ -226,26 +227,26 @@ margin-right: 30px;
 
 .page-down {
   background-color: var(--section-color);
-  height: 252px;
+  /* height: 252px;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 
-.page-down-items{
+/* .page-down-items{
   width: 231px;
   height: 132px;
   margin: 60px 215px;
 
-}
+} */
 
 .logo-studio{
   color: white;
 }
 
-.text-down {
+/* .text-down {
   margin-top: 20px;
   padding-left: 0;
-}
+} */
 
 .map {
   font-family: var(--main-font-family);
@@ -278,15 +279,15 @@ margin-right: 30px;
 
        /* Portfolio */
 
-.button-box {
+/* .button-box {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
-}
-.top-box {
+} */
+/* .top-box {
   margin-right: 8px;
   
-}
+} */
 
 .top_button {
   font-family: var(--main-font-family);
@@ -297,7 +298,7 @@ margin-right: 30px;
   background: #F5F4FA;
   border-radius: 4px;
   border: none;
-  padding: 6px 22px;
+  /* padding: 6px 22px; */
 }
 .top_button:hover,
 .top_button:focus {
@@ -309,13 +310,13 @@ margin-right: 30px;
 
 /* section img */
 
-.portfolio-page{
+/* .portfolio-page{
   margin: 94px;
-}
+} */
 .portfolio-img {
-  width: 1170px;
+  /* width: 1170px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 16px;
